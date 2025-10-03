@@ -4,7 +4,7 @@ module.exports = {
     description: "Ce mod reprends la traduction de stoubs et la retranspose dans ce mod / This takes the translation by stoubs and redispose it into this mod ",
 
     author: "Pigura",
-    version: 0.1,
+    version: 0.11,
 
     edit: true,
 
@@ -54,5 +54,40 @@ archive.mspa.story['001910'].content =
 Malheureusement vous ne pouvez pas accéder à vos FAUX BRAS ! Leur carte est coincée sous celle que vous venez d’utiliser pour captchaloguer les     CAPSULES À FUMÉE. Vous allez devoir utiliser les capsules avant de pouvoir accéder à vos bras. Un geste peu avisé qui ne servirait qu’à enfumer votre chambre.
 <br /><br />
 Le MODUS qui suit actuellement votre SYLLADEX est réglé sur une logique de STRUCTURE D’EMPILAGE DES DONNÉES. Vous n’avez jamais été bon avec les structures de données et avez toujours trouvé le concept compliqué et légèrement agaçant.`
-    }
+archive.mspa.story['001910'].content =   
+
+`
+Est-ce qu’un détective peut avoir l’air encore plus endurci que ça ? <a href="https://topatoco.com/collections/mspa/products/mspa-office-print.">Ce poster est probablement le meilleur achat que vous ayez jamais fait.</a>`
+
+archive.mspa.story['001911'].content =   
+
+`
+Est-ce qu’un détective peut avoir l’air encore plus endurci que ça ? <a href="https://topatoco.com/collections/hussie/products/mspa-office-print">Ce poster est probablement le meilleur achat que vous ayez jamais fait.</a>
+<br /><br />
+Il y a une très jolie place sur le mur juste à côté. Vous avez prévu d’y accrocher un autre poster très bientôt.
+`
+archive.mspa.story['001912'].content =  ///Modify images
+`
+Ce petit mot est imprégné des riches arômes de L’APRÈS-RASAGE ET DE L’EAU DE COLOGNE PATERNELS.
+<br /><br />
+Sous le mot se trouve un POSTER ENROULÉ.`
+archive.mspa.story['001913'].content =  
+`Un autre ARTEFACT D’ANNIVERSAIRE. Vous vous demandez ce qu’il y a dessus.
+<br /><br />
+Il va vous falloir un moyen de l’accrocher au mur.`
+archive.mspa.story['001914'].content = 
+`Vous placez le MARTEAU dans votre SYLLADEX.
+<br /><br />
+Mais maintenant toutes vos CARTES CAPTCHALOGUES sont pleines. Vous vous demandez ce qui se passerait si vous essayiez de prendre les CLOUS.
+<br /><br />
+Vous supposez que ça ne coûte rien d’essayer.`
+archive.mspa.story['001915'].content = 
+`Vous captchaloguez vos QUATRE (4) CLOUS sur la carte du haut, poussant ainsi tous les ARTEFACTS d’une carte vers le bas.
+<br /><br />
+Les FAUX BRAS sont expulsés du deck !!!
+<br /><br />
+Bah, ils étaient sans doute complètement inutiles de toute façon. Mais vous seriez bien avisé de ne pas recommencer, à moins que vous ne vouliez expulser les CAPSULES À FUMÉE à leur tour et en affronter les conséquences.
+<br /><br />
+Quoi qu’il en soit, vous sentez que vous avez ramassé assez d’objets  pour vous mettre sérieusement au travail. Votre prochaine action sera, sans aucun doute possible, incroyablement déterminante pour la suite des évènements`
+}
 }
