@@ -4,18 +4,60 @@ module.exports = {
     description: "Ce mod reprends la traduction de stoubs et la retranspose dans ce mod / This takes the translation by stoubs and redispose it into this mod ",
 
     author: "Pigura",
-    version: 0.11,
+    version: 0.12,
 
     edit: true,
 
 
     edit(archive) {
+        //modification page title
+        archive.mspa.story['001902'].title =
+        "Entrez un nom."
+        archive.mspa.story['001903'].title =
+        "Encore une fois."
+        archive.mspa.story['001904'].title =
+        "Examiner la pièce."
+        archive.mspa.story['001905'].title =
+        "John: Récupère vite tes bras de la commode."
+        archive.mspa.story['001906'].title =
+        "Retirer le GÂTEAU du COFFRE MAGIQUE."
+        archive.mspa.story['001907'].title =
+        "John: Récupère vite tes bras du COFFRE MAGIQUE."
+        archive.mspa.story['001908'].title =
+        "John: Examine le contenu du coffre."
+        archive.mspa.story['001909'].title =
+        "John: Captchalogue les capsules."
+        archive.mspa.story['001910'].title =
+        "John: Équipe les faux bras."
+        archive.mspa.story['001911'].title =
+        "John: Examine le poster de PROBLEM SLEUTH."
+        archive.mspa.story['001912'].title =
+        "John: Lit la note sur le bureau."
+        archive.mspa.story['001913'].title =
+        "John: Prend le poster."
+        archive.mspa.story['001914'].title =
+        "John: Sers-toi du marteau et des clous. Il se révéleront utiles."
+        archive.mspa.story['001915'].title =
+        "John: Prends les clous."
+        archive.mspa.story['001916'].title =
+        "John: Glousse comme un abruti et chie sur ton bureau."
+        archive.mspa.story['001917'].title =
+        "John: Combine les clous et le marteau."
+        archive.mspa.story['001918'].title =
+        "John: Utilise le marteau/clous avec le poster."
+        archive.mspa.story['001919'].title =
+        "John: Cloue le poster au mur."
+        archive.mspa.story['001920'].title =
+        "John: Examine le poster des Ailes de l’enfer."
+        //modification page content
         archive.mspa.story['001901'].content =
 
             `Un jeune homme se tient dans sa chambre. Aujourd’hui, le 13 avril 2009, c’est son anniversaire, 
     et bien que cela fasse treize longues années qu’il ait vu le jour, ce n’est qu’aujourd’hui qu’il aura enfin un nom !
         <br /><br />
         Alors, quel sera son nom ?`
+        
+        "Retirer le GÂTEAU du COFFRE MAGIQUE."
         archive.mspa.story['001904'].content =
             `Votre nom est JOHN, comme précédemment mentionné aujourd'hui c’est votre ANNIVERSAIRE. Plusieurs GÂTEAUX sont disséminés au travers de votre chambre. Vous avez un certain nombre de CENTRES D’INTÉRÊT. Vous êtes passionné par les TRÈS MAUVAIS FILMS. Vous aimez la programmation informatique mais vous n’y êtes PAS TRÈS BON. Vous vous intéressez également au PARANORMAL et aspirez à devenir MAGICIEN AMATEUR. Vous aimez également jouer à des JEUX de temps en temps.
         <br /><br />
@@ -54,11 +96,7 @@ archive.mspa.story['001910'].content =
 Malheureusement vous ne pouvez pas accéder à vos FAUX BRAS ! Leur carte est coincée sous celle que vous venez d’utiliser pour captchaloguer les     CAPSULES À FUMÉE. Vous allez devoir utiliser les capsules avant de pouvoir accéder à vos bras. Un geste peu avisé qui ne servirait qu’à enfumer votre chambre.
 <br /><br />
 Le MODUS qui suit actuellement votre SYLLADEX est réglé sur une logique de STRUCTURE D’EMPILAGE DES DONNÉES. Vous n’avez jamais été bon avec les structures de données et avez toujours trouvé le concept compliqué et légèrement agaçant.`
-archive.mspa.story['001910'].content =   
-
-`
-Est-ce qu’un détective peut avoir l’air encore plus endurci que ça ? <a href="https://topatoco.com/collections/mspa/products/mspa-office-print.">Ce poster est probablement le meilleur achat que vous ayez jamais fait.</a>`
-
+    
 archive.mspa.story['001911'].content =   
 
 `
@@ -89,5 +127,35 @@ Les FAUX BRAS sont expulsés du deck !!!
 Bah, ils étaient sans doute complètement inutiles de toute façon. Mais vous seriez bien avisé de ne pas recommencer, à moins que vous ne vouliez expulser les CAPSULES À FUMÉE à leur tour et en affronter les conséquences.
 <br /><br />
 Quoi qu’il en soit, vous sentez que vous avez ramassé assez d’objets  pour vous mettre sérieusement au travail. Votre prochaine action sera, sans aucun doute possible, incroyablement déterminante pour la suite des évènements`
+archive.mspa.story['001916'].content = 
+`C’est la pire idée que vous ayez eu depuis longtemps !!!
+<br /><br />
+IMBÉCILE IMBÉCILE IMBÉCILE.
+<br /><br />
+Et pourtant... la surface parfaitement polie de votre bureau...
+<br /><br />
+Elle vous appelle...`
+archive.mspa.story['001917'].content = 
+`
+Vous FUSIONNEZ les deux cartes du dessus.
+<br /><br />
+Les CLOUS et le MARTEAU sont à présent sur une seule carte et peuvent être utilisés ensemble.`
+archive.mspa.story['001918'].content = 
+`Vous utilisez le MARTEAU et les CLOUS en CONJONCTION avec la carte en dessous.`
+archive.mspa.story['001919'].content =
+`Vous utilisez le MARTEAU, les CLOUS et le POSTER sur la partie vide du mur.
+<br /><br />
+C’est magnifique, exactement ce que vous vouliez. Votre paternel a vraiment bien choisis cette fois.`
+archive.mspa.story['001920'].content =
+`<a href="/archive/external/bunny.mp4">
+REMETS CE LAPIN DANS SA BOITE.
+<br /><br />
+J’AI DIT REMETS LE LAPIN DANS SA BOITE.
+<br /><br />
+POURQUOI EST-CE QUE TU N’AS PAS REMIS LE LAPIN DANS SA BOITE ?
+</a>
+`
+
 }
+
 }
